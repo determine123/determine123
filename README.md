@@ -1,118 +1,108 @@
-<!-- Profile README for github.com/determine123 -->
+# Li Tianming
 
-<div align="center">
+**AI Agent & Systems Engineer** · Agent Engineering · AI Infrastructure · Embodied AI
 
-<img src="https://komarev.com/ghpvc/?username=determine123&label=Profile%20views&color=7768ff&style=flat-square" alt="profile views" />
-<a href="https://github.com/determine123?tab=followers"><img src="https://img.shields.io/github/followers/determine123?label=Followers&style=flat-square" alt="followers" /></a>
+M.S. candidate in Mechanical Engineering at Shanghai Jiao Tong University, with a B.S. in Artificial Intelligence from Chengdu University of Technology.
 
-# Hi, I'm Li Tianming 👋
+I build reliable LLM agents and performance-aware AI systems for real-world workflows. My current industry work focuses on an automotive compliance Agent; my public projects cover agent orchestration, evaluation, reproducible AI engineering, and Triton kernel optimization.
 
-### `determine123` · AI Agent · AI Infrastructure · Robotics
+**Open to internships in AI Agent Engineering, AI Infrastructure, and Embodied AI Systems.**
 
-<p><em>Building bridges between research, engineering, and real-world systems.</em></p>
-
-<p>
-  <a href="https://determine123.github.io/determine/">🌐 Personal Site</a> ·
-  <a href="mailto:determine@sjtu.edu.cn">📧 Email</a> ·
-  <a href="https://github.com/determine123">💻 GitHub</a>
-</p>
-
-</div>
+[Personal site](https://determine123.github.io/determine/) · [Email](mailto:determine@sjtu.edu.cn) · [GitHub](https://github.com/determine123)
 
 ---
 
-## 🧠 About me
+## Focus
 
-- 🎓 **M.S. student in Mechanical Engineering**, Shanghai Jiao Tong University
-- 🎓 **B.S. in Artificial Intelligence**, Chengdu University of Technology
-- 📍 Based in **Shanghai, China**
-- 🔭 Exploring **AI Agents, LLM applications, AI Infrastructure, robotics, and intelligent control**
-- 🧩 Interested in turning models and ideas into **reliable, usable, and reproducible systems**
-- 📝 Learning in public through projects, notes, experiments, and engineering retrospectives
-
-> 把想法变成能工作的系统。
-
-## 🛠️ Research & engineering interests
-
-| Area | What I am exploring |
-|---|---|
-| **AI Agent & LLM Applications** | ReAct, tool calling, task orchestration, RAG, memory, evaluation, and reliability |
-| **AI Infrastructure** | Inference systems, model serving, production ML, latency, throughput, and cost engineering |
-| **Robotics & Control** | Intelligent control, reinforcement learning, perception, and embodied AI |
-| **Engineering Practice** | Python prototyping, automation, Git/GitHub workflows, and reproducible experiments |
-
-## 📌 Selected projects
-
-> These projects reflect my current learning path and engineering interests. Some are study repositories or forks; I use them to learn, experiment, and document progress.
-
-| Project | Description | Focus |
+| Priority | Direction | What I want to build |
 |---|---|---|
-| [研发效能日报助手](https://github.com/determine123/%E7%A0%94%E5%8F%91%E6%95%88%E8%83%BD%E6%97%A5%E6%8A%A5%E5%8A%A9%E6%89%8B) | Git 提交分析、研发日报生成与证据追溯 | Python · LLM · Automation |
-| [AI-Infra-study](https://github.com/determine123/AI-Infra-study) | AI Infra 学习路径与推理系统笔记 | HTML · Inference |
-| [AI-Infra](https://github.com/determine123/AI-Infra) | AI 基础设施方向的学习与整理 | JavaScript · AI Infra |
-| [AIInfraGuide](https://github.com/determine123/AIInfraGuide) | AI Infra 全栈从 0 入门资料 | Astro · Documentation |
-| [ai-infra-engineer-learning](https://github.com/determine123/ai-infra-engineer-learning) | AI Infrastructure Engineer 学习路线 | Python · Production ML |
-| [deepseek-harness](https://github.com/determine123/deepseek-harness) | DeepSeek Harness 插件化项目学习与实践 | TypeScript · Plugins |
-| [sjtu-resume-template](https://github.com/determine123/sjtu-resume-template) | SJTU 简历模板与求职材料整理 | LaTeX · Resume |
+| **Primary** | **AI Agent Engineering** | Tool-using agents, RAG, memory, workflow orchestration, evaluation, reliability, and production APIs |
+| **Secondary** | **AI Infrastructure** | Inference performance, model serving, Triton/CUDA kernels, benchmarking, deployment, and cost-aware systems |
+| **Long term** | **Embodied AI** | Reinforcement learning, robot decision systems, perception-action loops, and safety constraints |
 
-## 💻 Tech stack
+## Featured engineering work
 
-### Languages
+### [Multi-tool ReAct Agent](https://github.com/determine123/react-agent)
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS" />
-</p>
+A modular Agent system with ReAct reasoning, tool calling, RAG, two-tier memory, LangGraph workflows, FastAPI, Gradio, evaluation, and Docker deployment.
 
-### AI / systems
+- Registered 10 task-oriented tools behind a unified dispatch layer.
+- Built document ingestion, retrieval, source return, and configurable embedding support.
+- Added bounded execution, error fallback, API endpoints, a Web UI, and repeatable evaluation flows.
+- Kept configuration and secrets outside the codebase for reproducible local deployment.
 
-<p>
-<img src="https://img.shields.io/badge/AI%20Agent-7768FF?style=flat-square" alt="AI Agent" />
-<img src="https://img.shields.io/badge/RAG-FF6B3D?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/AI%20Infrastructure-101114?style=flat-square" alt="AI Infrastructure" />
-<img src="https://img.shields.io/badge/Robotics-69C36D?style=flat-square" alt="Robotics" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-</p>
+`Python` `LangGraph` `RAG` `ChromaDB` `FastAPI` `Gradio` `Docker`
 
-> Tools and frameworks are listed as areas of active study; project READMEs contain the precise implementation details.
+### [DeepSeek-V3 Decode GEMM Optimization](https://github.com/determine123/flagos-s2-track1)
 
-## 📊 GitHub activity
+A multi-backend Triton optimization project for the tiny-M GEMM used by fused QKV-A down projection.
 
-<div align="center">
+- Improved platform compatibility from 5/8 to 8/8 accelerator backends.
+- Recorded a 2.50× platform-average speedup and Task 66 rank No. 8 in the published platform snapshot.
+- Preserved an independent FP32 oracle, test coverage, deterministic packaging, hashes, and experiment provenance.
+- Clearly separated platform-transcribed results from locally reproducible measurements.
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=determine123&show_icons=true&hide_title=true&hide=stars&count_private=true&include_all_commits=true&theme=transparent&hide_border=true" alt="GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=determine123&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top languages" />
+`Python` `PyTorch` `Triton` `GEMM` `Benchmarking` `AI Infra`
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=determine123&theme=transparent&hide_border=true" alt="GitHub streak" />
+### [R&D Daily Report Assistant](https://github.com/determine123/rd-efficiency-daily-assistant)
 
-</div>
+An evidence-first pipeline that turns Git activity and technical news into structured engineering reports without inventing progress or impact.
 
-## 🔥 Current focus
+- Binds engineering claims to commit IDs and news items to sources or URLs.
+- Uses deterministic generation by default, with an optional OpenAI-compatible LLM and safe fallback.
+- Provides validation rules, unit tests, RSS/Git ingestion, FastAPI endpoints, and a LangGraph-compatible workflow.
+- Includes only synthetic examples and documents data-safety boundaries.
 
-```text
-Agent fundamentals → RAG & tool calling → evaluation & reliability
-AI Infra → inference systems → deployment, performance & cost engineering
-Robotics & control → intelligent systems → embodied AI
-```
+`Python` `LangGraph` `FastAPI` `Git` `RSS` `Testing`
 
-## 📝 Latest notes and updates
+### Automotive Compliance Agent — industry internship, private
 
-- [AI Infra 学习路线](https://github.com/determine123/AI-Infra-study) — 持续整理推理系统与基础设施知识
-- [AI Infra 全栈入门资料](https://github.com/determine123/AIInfraGuide) — 从基础概念到工程实践
-- [个人学术主页](https://determine123.github.io/determine/) — 个人经历、方向与项目导航
+Building an LLM-assisted workflow for automotive material-compliance analysis. The production code, business rules, data, customer information, and internal architecture are confidential and are not published here.
 
-## 🤝 Connect with me
+The public portfolio will contain only independently recreated, synthetic examples after confidentiality review.
 
-- 📧 <determine@sjtu.edu.cn>
-- 🌐 <https://determine123.github.io/determine/>
-- 🐙 <https://github.com/determine123>
+`Agent Workflow` `Structured Output` `Rule Checking` `Evaluation` `Data Safety`
 
-<div align="center">
+## Selected project experience
 
-![Profile views](https://komarev.com/ghpvc/?username=determine123&style=flat-square&color=7768ff)
+These projects are not yet presented as public repositories. I list them as experience, not as open-source deliverables.
 
-</div>
+| Project | Engineering scope | Public status |
+|---|---|---|
+| **Drone obstacle avoidance with deep RL** | PPO/SAC comparison, Gym-PyBullet-Drones simulation, safety projection, and repeated experiments | Reproducibility package under cleanup |
+| **BERT compression and edge deployment** | Knowledge distillation, ONNX/TensorRT optimization, and Jetson AGX Orin deployment | Code and benchmarks under cleanup |
+| **Solar power forecasting** | Spatial downscaling, random-forest regression, time-series features, and research evaluation | Paper-related materials; release subject to author agreement |
+
+## Technical stack
+
+**Languages:** Python · C/C++ · TypeScript · SQL
+
+**Agent and LLM systems:** ReAct · LangGraph · Function Calling · MCP · RAG · ChromaDB · RAGAS · Prompt and tool evaluation
+
+**AI infrastructure and deployment:** PyTorch · Triton · CUDA performance analysis · ONNX · TensorRT · FastAPI · Docker · Jetson AGX Orin · Linux
+
+**Reinforcement learning and robotics:** PPO · SAC · Gym-PyBullet-Drones · reward design · safety constraints · simulation-based evaluation
+
+## Engineering principles
+
+- **Evaluation before presentation:** define datasets, baselines, failure cases, and metrics before calling a system complete.
+- **Evidence over claims:** keep results traceable to code, test output, experiment records, or platform snapshots.
+- **Reproducibility by default:** document environments, commands, contracts, and known limitations.
+- **Confidentiality by design:** never publish employer code, internal data, customer information, credentials, or reconstructed proprietary rules.
+
+## Current work
+
+- Hardening the public ReAct Agent with stronger task-level evaluation and observability.
+- Learning inference systems through kernels, benchmarks, and reproducible experiments rather than notes alone.
+- Preparing a public embodied-AI project with simulation, baselines, safety constraints, and video evidence.
+
+## Technical notes
+
+- [AI Infra Study](https://github.com/determine123/AI-Infra-study) — structured notes and experiments from foundations to inference and platform engineering.
+- [Personal site](https://determine123.github.io/determine/) — education, projects, and longer-form technical material.
+
+## Contact
+
+- Email: [determine@sjtu.edu.cn](mailto:determine@sjtu.edu.cn)
+- GitHub: [github.com/determine123](https://github.com/determine123)
+- Location: Shanghai, China
