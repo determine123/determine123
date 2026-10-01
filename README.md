@@ -1,108 +1,28 @@
-# Li Tianming
+# 李天明 · Li Tianming
 
-**AI Agent & Systems Engineer** · Agent Engineering · AI Infrastructure · Embodied AI
+**AI Agent 开发 / AI Infra / 具身智能与机器人控制**
 
-M.S. candidate in Mechanical Engineering at Shanghai Jiao Tong University, with a B.S. in Artificial Intelligence from Chengdu University of Technology.
+上海交通大学机械硕士在读 · 成都理工大学人工智能本科。主攻 Agent 工程，关注从工具调用与检索，到推理性能与机器人决策控制的系统实践。
 
-I build reliable LLM agents and performance-aware AI systems for real-world workflows. My current industry work focuses on an automotive compliance Agent; my public projects cover agent orchestration, evaluation, reproducible AI engineering, and Triton kernel optimization.
+**寻找实习机会：Agent 开发、大模型应用、AI Infra、具身智能与机器人控制。**
 
-**Open to internships in AI Agent Engineering, AI Infrastructure, and Embodied AI Systems.**
+[邮箱](mailto:determine@sjtu.edu.cn) · [个人博客](https://determine123.github.io/determine/) · 上海
 
-[Personal site](https://determine123.github.io/determine/) · [Email](mailto:determine@sjtu.edu.cn) · [GitHub](https://github.com/determine123)
+### 精选项目
 
----
+- **[多工具 ReAct Agent](https://github.com/determine123/react-agent)** — 集成工具调用、RAG、双层记忆与 LangGraph 编排，提供 FastAPI、Gradio、评估入口和 Docker 部署。
+- **[DeepSeek-V3 Decode GEMM 优化](https://github.com/determine123/flagos-s2-track1)** — 团队 Triton 算子项目，覆盖跨后端适配、正确性验证与实验归档。2026-09-15 平台快照：8/8 后端通过，平均加速比 2.50×；非端到端推理收益，个人贡献见 PR 与实验记录。
+- **[研发效能日报助手](https://github.com/determine123/rd-efficiency-daily-assistant)** — Git / RSS 数据采集、来源追溯与规则校验，支持可选 LLM、失败回退、API 与 LangGraph 工作流。
 
-## Focus
+### 实习与研究
 
-| Priority | Direction | What I want to build |
-|---|---|---|
-| **Primary** | **AI Agent Engineering** | Tool-using agents, RAG, memory, workflow orchestration, evaluation, reliability, and production APIs |
-| **Secondary** | **AI Infrastructure** | Inference performance, model serving, Triton/CUDA kernels, benchmarking, deployment, and cost-aware systems |
-| **Long term** | **Embodied AI** | Reinforcement learning, robot decision systems, perception-action loops, and safety constraints |
+- **汽车材料合规 Agent**：参与 LLM 辅助合规分析工作流开发，相关代码与业务资料未公开。
+- **具身智能与机器人控制**：无人机强化学习避障，围绕 PPO / SAC、仿真评估与安全约束开展实践，复现材料整理中。
 
-## Featured engineering work
+### 技术方向
 
-### [Multi-tool ReAct Agent](https://github.com/determine123/react-agent)
+- **Agent**：Python · LangGraph · Tool Calling · RAG · ChromaDB · 评估 · FastAPI
+- **AI Infra**：PyTorch · Triton · CUDA 性能分析 · ONNX / TensorRT · Docker · Linux
+- **具身与控制**：强化学习 · PPO / SAC · 机器人决策 · 仿真与安全约束
 
-A modular Agent system with ReAct reasoning, tool calling, RAG, two-tier memory, LangGraph workflows, FastAPI, Gradio, evaluation, and Docker deployment.
-
-- Registered 10 task-oriented tools behind a unified dispatch layer.
-- Built document ingestion, retrieval, source return, and configurable embedding support.
-- Added bounded execution, error fallback, API endpoints, a Web UI, and repeatable evaluation flows.
-- Kept configuration and secrets outside the codebase for reproducible local deployment.
-
-`Python` `LangGraph` `RAG` `ChromaDB` `FastAPI` `Gradio` `Docker`
-
-### [DeepSeek-V3 Decode GEMM Optimization](https://github.com/determine123/flagos-s2-track1)
-
-A multi-backend Triton optimization project for the tiny-M GEMM used by fused QKV-A down projection.
-
-- Improved platform compatibility from 5/8 to 8/8 accelerator backends.
-- Recorded a 2.50× platform-average speedup and Task 66 rank No. 8 in the published platform snapshot.
-- Preserved an independent FP32 oracle, test coverage, deterministic packaging, hashes, and experiment provenance.
-- Clearly separated platform-transcribed results from locally reproducible measurements.
-
-`Python` `PyTorch` `Triton` `GEMM` `Benchmarking` `AI Infra`
-
-### [R&D Daily Report Assistant](https://github.com/determine123/rd-efficiency-daily-assistant)
-
-An evidence-first pipeline that turns Git activity and technical news into structured engineering reports without inventing progress or impact.
-
-- Binds engineering claims to commit IDs and news items to sources or URLs.
-- Uses deterministic generation by default, with an optional OpenAI-compatible LLM and safe fallback.
-- Provides validation rules, unit tests, RSS/Git ingestion, FastAPI endpoints, and a LangGraph-compatible workflow.
-- Includes only synthetic examples and documents data-safety boundaries.
-
-`Python` `LangGraph` `FastAPI` `Git` `RSS` `Testing`
-
-### Automotive Compliance Agent — industry internship, private
-
-Building an LLM-assisted workflow for automotive material-compliance analysis. The production code, business rules, data, customer information, and internal architecture are confidential and are not published here.
-
-The public portfolio will contain only independently recreated, synthetic examples after confidentiality review.
-
-`Agent Workflow` `Structured Output` `Rule Checking` `Evaluation` `Data Safety`
-
-## Selected project experience
-
-These projects are not yet presented as public repositories. I list them as experience, not as open-source deliverables.
-
-| Project | Engineering scope | Public status |
-|---|---|---|
-| **Drone obstacle avoidance with deep RL** | PPO/SAC comparison, Gym-PyBullet-Drones simulation, safety projection, and repeated experiments | Reproducibility package under cleanup |
-| **BERT compression and edge deployment** | Knowledge distillation, ONNX/TensorRT optimization, and Jetson AGX Orin deployment | Code and benchmarks under cleanup |
-| **Solar power forecasting** | Spatial downscaling, random-forest regression, time-series features, and research evaluation | Paper-related materials; release subject to author agreement |
-
-## Technical stack
-
-**Languages:** Python · C/C++ · TypeScript · SQL
-
-**Agent and LLM systems:** ReAct · LangGraph · Function Calling · MCP · RAG · ChromaDB · RAGAS · Prompt and tool evaluation
-
-**AI infrastructure and deployment:** PyTorch · Triton · CUDA performance analysis · ONNX · TensorRT · FastAPI · Docker · Jetson AGX Orin · Linux
-
-**Reinforcement learning and robotics:** PPO · SAC · Gym-PyBullet-Drones · reward design · safety constraints · simulation-based evaluation
-
-## Engineering principles
-
-- **Evaluation before presentation:** define datasets, baselines, failure cases, and metrics before calling a system complete.
-- **Evidence over claims:** keep results traceable to code, test output, experiment records, or platform snapshots.
-- **Reproducibility by default:** document environments, commands, contracts, and known limitations.
-- **Confidentiality by design:** never publish employer code, internal data, customer information, credentials, or reconstructed proprietary rules.
-
-## Current work
-
-- Hardening the public ReAct Agent with stronger task-level evaluation and observability.
-- Learning inference systems through kernels, benchmarks, and reproducible experiments rather than notes alone.
-- Preparing a public embodied-AI project with simulation, baselines, safety constraints, and video evidence.
-
-## Technical notes
-
-- [AI Infra Study](https://github.com/determine123/AI-Infra-study) — structured notes and experiments from foundations to inference and platform engineering.
-- [Personal site](https://determine123.github.io/determine/) — education, projects, and longer-form technical material.
-
-## Contact
-
-- Email: [determine@sjtu.edu.cn](mailto:determine@sjtu.edu.cn)
-- GitHub: [github.com/determine123](https://github.com/determine123)
-- Location: Shanghai, China
+[AI Infra 学习笔记](https://github.com/determine123/AI-Infra-study) · 开源贡献：[AIInfraGuide #46](https://github.com/caomaolufei/AIInfraGuide/pull/46) / [ai-infra-book #3](https://github.com/bojieli/ai-infra-book/pull/3) / [AgentGuide #167](https://github.com/adongwanai/AgentGuide/pull/167)
