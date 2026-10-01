@@ -1,4 +1,4 @@
-# 李天明 · Li Tianming
+# determine · Li Tianming
 
 **AI Agent 开发 / AI Infra / 具身智能与机器人控制**
 
