@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/profile.svg?v=20261009" width="600" alt="determine｜上海交通大学硕士在读，寻找江浙沪 Agent / AI Infra 实习机会；主攻 Agent 开发，关注 AI Infra、具身智能与机器人控制。希望在江浙沪打拼出属于自己的天地。">
+  <img src="assets/profile.svg?v=20261009" width="600" alt="determine｜交大硕士在读，寻找江浙沪 Agent / AI Infra 实习机会；主攻 Agent 开发，关注 AI Infra、具身智能与机器人控制。希望在江浙沪打拼出属于自己的天地。">
 </p>
 
 <p align="center">
