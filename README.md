@@ -4,16 +4,21 @@
   <p>LLM Agents · AI Infrastructure · Embodied AI</p>
   <p>
     <a href="https://determine123.github.io/determine/">Blog</a> ·
+    <a href="https://www.douyin.com/search/ltm1524001843?type=user">Douyin</a> ·
+    <a href="https://space.bilibili.com/1553355526">Bilibili</a> ·
     <a href="mailto:determine@sjtu.edu.cn">Email</a> ·
     <a href="https://github.com/determine123?tab=repositories">Projects</a>
   </p>
 </div>
 
-Notes on hands-on projects, paper reproductions, and engineering lessons.
+### I'm determine
 
-**Projects:** [ReAct Agent](https://github.com/determine123/react-agent) · [Triton Kernels](https://github.com/determine123/flagos-s2-track1) · [Engineering Assistant](https://github.com/determine123/rd-efficiency-daily-assistant)
-
-**Open source:** [AIInfraGuide #46](https://github.com/caomaolufei/AIInfraGuide/pull/46) and [ai-infra-book #3](https://github.com/bojieli/ai-infra-book/pull/3) merged · [AgentGuide #167](https://github.com/adongwanai/AgentGuide/pull/167) under review
+- 🌱 Currently learning **LLM agents**
+- 👯 Currently working in **Hangzhou, China**
+- 🤔 I love **open source and enjoy building things**
+- 💬 Ask me about **LLM agents and my projects**
+- 📫 How to reach me: [**determine@sjtu.edu.cn**](mailto:determine@sjtu.edu.cn)
+- 😄 Always happy to connect and chat!
 
 ### Contributions
 
