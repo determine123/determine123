@@ -1,7 +1,4 @@
 <div align="center">
-  <img src="assets/profile.svg" alt="determine · Agent Engineering · AI Infrastructure" width="600">
-  <p>B.Eng. in Artificial Intelligence, CDUT · M.S. student in Mechanical Engineering, SJTU</p>
-  <p>LLM Agents · AI Infrastructure · Embodied AI</p>
   <p>
     <a href="https://determine123.github.io/determine/">Blog</a> ·
     <a href="https://www.douyin.com/search/ltm1524001843?type=user">Douyin</a> ·
