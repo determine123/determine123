@@ -11,7 +11,7 @@
 ### I'm determine
 
 - 🌱 Currently learning **LLM agents**
-- 👯 Currently working in **Hangzhou, China**
+- 👯 Currently working in **Shanghai, China**
 - 🤔 I love **open source and enjoy building things**
 - 💬 Ask me about **LLM agents and my projects**
 - 📫 How to reach me: [**determine@sjtu.edu.cn**](mailto:determine@sjtu.edu.cn)
