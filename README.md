@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <a href="https://determine123.github.io/determine/">Blog</a> ·
+    <a href="https://determine123.github.io/">Blog</a> ·
     <a href="https://www.douyin.com/search/ltm1524001843?type=user">Douyin</a> ·
     <a href="https://space.bilibili.com/1553355526">Bilibili</a> ·
     <a href="mailto:determine@sjtu.edu.cn">Email</a> ·
